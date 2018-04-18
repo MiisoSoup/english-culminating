@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="crown.png" type="image/x-icon"/>
+<TITLE> Hyperlinked Shakespeare </TITLE>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: "Hamlet", Hamlet;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #34282C;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #84787C;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+figure {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0px;
+    margin-right: 40px;
+    float: left;
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="sdoas.htm">soliloquy, dialogue or a scene</a>
+  <a href="sources.htm">Sources</a>
+  <a href="hamlet.htm">Hamlet</a>
+  <a href="shakes.htm">Shakespeare</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open </span>
+	<img src="skull.PNG" width="45 height="65 </img>
+<H1><P align= center> Hamlet </H1></P>
+	<HR COLOR="#C25A7C" WIDTH="100%">
+
+<Figure>
+	<img src="hamlet.PNG" width= "275" height="450" align="left">
+	<figcaption> Title page of the 1605 printing of Hamlet </figcaption>
+</figure>
+<P align= center>The Tragedy of Hamlet, Prince of Denmark is approximately the 18th and longest play credited to Shakespeare. Shakespeare wrote Hamlet sometime between 1599 and 1602. Hamlet was published in 1603, with it's first performance onboard A ship named "The Dragon" in 1607. published in 1603. With Hamlet's success it has contiuned to be performed and adapted to this day</p>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+</body>
+</html> 
